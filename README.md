@@ -73,11 +73,11 @@ Users can **select a regression model** to predict song popularity:
 
 Which Regression Model would you like to use?
 
-Linear Regression
-Ridge Regression
-Polynomial Linear Regression
-Polynomial Ridge Regression
-Random Forest Regressor (Best Model)
+Linear Regression, 
+Ridge Regression, 
+Polynomial Linear Regression, 
+Polynomial Ridge Regression, 
+Random Forest Regressor (Best Model).
 
 
 If a user selects a **non-optimal model**, they receive a **warning message** and can **reselect** or proceed.
@@ -87,9 +87,9 @@ Users can **select a classification model** to categorize songs:
 
 Which Classification Model would you like to use?
 
-Logistic Regression
-Support Vector Machine (SVM)
-Random Forest Classifier (Best Model)
+Logistic Regression, 
+Support Vector Machine (SVM), 
+Random Forest Classifier (Best Model).
 
 
 Similarly, if a **suboptimal classifier is chosen**, the system **warns the user** and allows reselection.
