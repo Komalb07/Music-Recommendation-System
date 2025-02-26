@@ -20,11 +20,11 @@ def recommend_songs(user_id, df, features, predicted_popularity, classification_
                     filter_popular=False):
     df['Predicted Popularity'] = predicted_popularity
 
-    # ✅ Ensure classification_predictions is correctly applied
+    # Ensure classification_predictions is correctly applied
     if isinstance(classification_predictions, pd.Series):  # If it's a Pandas Series, use it directly
         df['Popularity Class'] = classification_predictions
     else:
-        raise TypeError("❌ Error: classification_predictions is not a valid Pandas Series!")
+        raise TypeError(" Error: classification_predictions is not a valid Pandas Series!")
 
     user_songs = df[df['User id'] == user_id]
     user_playlist_songs = user_songs['Song id'].unique()
