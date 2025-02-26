@@ -50,8 +50,7 @@ This dataset was **manually collected** by asking users to provide their **Spoti
   - **Support Vector Machine (SVM)**
   - **Random Forest Classifier** (Best Model)
 - **User Interaction**: Users can **choose their classification model**.
-- **Displays Model Performance**: Accuracy, Recall, and Precision are shown for the selected classifier.
-
+  
 #### **Recommendation System (Content-Based Filtering)**
 - **Goal:** Recommends songs **based on feature similarity** to a user’s playlist.
 - **Technique Used:** **Cosine Similarity**
