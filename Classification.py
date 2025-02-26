@@ -54,7 +54,7 @@ def train_classification_models():
             "Precision": round(precision_score(y_test, model.predict(X_test), pos_label="Popular"), 3)
         }
 
-        predictions_dict[name] = pd.Series(predictions, index=df.index)  # ✅ Convert predictions to Pandas Series
+        predictions_dict[name] = pd.Series(predictions, index=df.index)  # Convert predictions to Pandas Series
 
-    # ✅ Return classification results and predictions correctly
+    # Return classification results and predictions correctly
     return results, predictions_dict
